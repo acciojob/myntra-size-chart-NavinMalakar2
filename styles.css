@@ -1,2 +1,21 @@
-
-/* Your CSS Code here. */
+table {
+      width: 80%;
+      margin: 30px auto;
+      border-collapse: collapse;
+      font-family: Arial, sans-serif;
+    }
+    thead {
+      background-color: #a94442;
+      color: white;
+    }
+    th, td {
+      border: 1px solid #999;
+      padding: 10px 15px;
+      text-align: center;
+    }
+    tbody tr:nth-child(odd) {
+      background-color: #f2dede;
+    }
+    tbody tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
